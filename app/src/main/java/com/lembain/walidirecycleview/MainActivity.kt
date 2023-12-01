@@ -2,10 +2,12 @@ package com.lembain.walidirecycleview
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), RecyclerViewClickListener {
     private lateinit var rvBooks: RecyclerView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,6 +18,10 @@ class MainActivity : AppCompatActivity() {
         rvBooks.layoutManager = LinearLayoutManager(this)
         val listBookAdapter = ListBookAdapter(listBook)
         rvBooks.adapter = listBookAdapter
+
+        val listHeroAdapter = ListBookAdapter(listBook)
+        rvBooks.adapter = listHeroAdapter
+        listHeroAdapter.clickListener = this
     }
 
     private val listBook: ArrayList<Book>
@@ -30,5 +36,10 @@ class MainActivity : AppCompatActivity() {
             }
             return listBook
         }
+
+    override fun onItemClickListener(view: View, book: Book) {
+        Toast.makeText(this, "Hallo ${book.name}", Toast.LENGTH_LONG).show()
+    }
+
 
 }

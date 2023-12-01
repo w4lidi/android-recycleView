@@ -12,6 +12,7 @@ import com.bumptech.glide.Glide
 
 class ListBookAdapter(private val listBook: ArrayList<Book>) :
 RecyclerView.Adapter<ListBookAdapter.ListViewHolder>() {
+    var clickListener : RecyclerViewClickListener? = null
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imgPhoto: ImageView = itemView.findViewById(R.id.img_item_photo)
         val tvName: TextView = itemView.findViewById(R.id.tv_item_name)
@@ -38,6 +39,11 @@ RecyclerView.Adapter<ListBookAdapter.ListViewHolder>() {
 
         holder.tvName.text = name
         holder.tvDescription.text = description
+
+        holder.itemView.setOnClickListener {
+            clickListener?.onItemClickListener(it, listBook[position])
+        }
+
 
     }
 
