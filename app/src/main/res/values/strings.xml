@@ -2,7 +2,7 @@
     <string name="app_name">WalidiRecycleView</string>
     <string name="book_name">Nama Buku</string>
     <string name="Description">Descripsi</string>
-
+    
     <string-array name="data_name">
         <item>Kecerdasan Emosional – Daniel Goleman</item>
         <item>Almost Adulting: Self-Help Approach to Deal With Quarter-Life Crisis – NADHIRA AFIFA</item>
@@ -16,8 +16,8 @@
         <item>Ego Is The Enemy – Ryan Holiday</item>
         <item>Filosofi Teras – Henry Manampiring</item>
     </string-array>
-
-
+    
+    
     <string-array name="data_description">
         <item>Apakah IQ adalah takdir? Ternyata tidak sebagaimana yang lumrah kita pikirkan. Gardner memperlihatkan mengapa orang yang ber-IQ tinggi mengalami kegagalan dan orang yang ber-IQ sedang menjadi sangat sukses. Penyebabnya adalah “kecerdasan emosional”, yang mencakup kesadaran diri dan kendali dorongan hati, ketekunan, semangat dan motivasi diri, empati, serta kecakapan sosial.</item>
         <item>Dengan ribuan opsi karier dan penghargaan yang ada di dunia ini, kenapa saya cuma jadi medioker, ya? Memasuki usia 20 tahun, saya mulai dihadapkan dengan berbagai pertanyaan terkait jati diri. Banyak pertanyaan yang menggelisahkan batin: sekian tahun ke belakang, sudah ngapain saja? Mau jadi apa di masa depan? Apa tujuan hidup saya? Will I ever be enough? Di situlah saya merasa, saya sedang mengalami masa quarter-life crisis—di mana hidup diisi banyak kebingungan karena tidak ada opsi ataupun karena terlalu banyak opsi. Tujuh tahun berlalu dan kebingungan itu ternyata masih ada. Menariknya, saya mulai bisa menerima bahwa kebingungan ini mungkin akan berlangsung seumur hidup, dan ternyata ini nggak masalah</item>
@@ -31,8 +31,8 @@
         <item>Buku yang Anda pegang saat ini ditulis dengan satu asumsi optimis: Ego Anda bukanlah kekuatan yang harus Anda puaskan pada setiap kesempatan. Ego dapat diatur. Ego dapat diarahkan. Dalam buku ini, kita akan melihat orang-orang, seperti William Tecumseh Sherman, Katharine Graham, Jackie Robinson, Eleanor Roosevelt, Bill Walsh, Benjamin Franklin, Belisarius, Angela Merkel, dan George C. Marshall.</item>
         <item>Lebih dari 2000 tahun lalu, sebuah mazhab filsafat menemukan akar masalah dan juga solusi dari banyak emosi negatif. Stoisisme, atau Filosofi Teras, adalah filsafat Yunani-Romawi kuno yang bisa membantu kita mengatasi emosi negatif dan menghasilkan mental yang tangguh dalam menghadapi naik-turun nya kehidupan. Jauh dari kesan filsafat sebagai topik berat dan mengawang-awang, Filosofi Teras justru bersifat praktis dan relevan dengan kehidupan Generasi Milenial dan Gen-Z masa kini.</item>
     </string-array>
-
-
+    
+    
     <string-array name="data_photo">
         <item>https://cdn.gramedia.com/uploads/items/img20220831_12081251.jpg</item>
         <item>https://cdn.gramedia.com/uploads/items/Almost_Adulting_C_1_4_page-0001.jpg</item>
